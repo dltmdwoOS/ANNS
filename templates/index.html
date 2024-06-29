@@ -1,0 +1,20 @@
+<!-- templates/index.html -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Neural Network Builder</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+</head>
+<body>
+    <h1>Neural Network Builder</h1>
+    <div id="block-container">
+        <!-- 블록 드래그 앤 드롭 영역 -->
+    </div>
+    <button id="add-layer">Add Layer</button>
+    <button id="train-network">Train Network</button>
+    
+    <script src="{{ url_for('static', filename='script.js') }}"></script>
+</body>
+</html>
